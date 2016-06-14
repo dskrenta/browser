@@ -1,4 +1,4 @@
-# app
+# Web Browser
 
 Web browser based on electron
 
@@ -23,8 +23,3 @@ $ npm run build
 ```
 
 Builds the app for OS X, Linux, and Windows, using [electron-packager](https://github.com/electron-userland/electron-packager).
-
-
-## License
-
-MIT © [<%= name %>](<%= website %>)

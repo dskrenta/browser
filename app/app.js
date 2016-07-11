@@ -6,6 +6,10 @@ import normalizeUrl from 'normalize-url';
 // RIOT tag imports
 import './js/example.js';
 
+let browser = new Browser();
+
+riot.mount('main', browser);
+
 riot.mount('example');
 console.log('Hello, World!');
 

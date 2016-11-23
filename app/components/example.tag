@@ -22,7 +22,8 @@
     this.items = [
       {name: "David", age: 17},
       {name: "Bob", age: 18},
-      {name: "Steve", age: 14}
+      {name: "Steve", age: 14},
+      {name: "testing", age: 99}
     ];
 
     this.sample = 'example';

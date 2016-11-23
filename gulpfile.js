@@ -23,7 +23,6 @@ gulp.task('browser-restart', ()=> {
 
 const paths = {
   components: 'app/components/**/*.tag',
-  //copy: 'app/*.*(html|js)',
   copy: 'app/index.*(html|js)',
   style: 'app/style/*.css',
   scripts: 'app/app.js',
@@ -38,7 +37,7 @@ gulp.task('clean', ()=> {
 const riotTask = ()=> {
   return gulp.src('app/components/**/*.tag')
     .pipe(riot())
-    .pipe(gulp.dest('./build/js'));
+    .pipe(gulp.dest('./build/components'));
 };
 
 gulp.task('riot', ['clean'], riotTask);

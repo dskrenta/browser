@@ -11,7 +11,6 @@
     "url": ""
   },
   "scripts": {
-    "test": "xo",
     "start": "gulp start",
     "build": "electron-packager ./app --out=dist --app-version=$npm_package_version --prune --asar --overwrite --all"
   },
@@ -38,16 +37,8 @@
     "gulp-riot": "^0.5.1",
     "gulp-watch": "4.3.6",
     "riot": "2.4.1",
-    "xo": "^0.15.0",
     "gulp-batch": "^1.0.5",
     "del": "^2.2.0",
     "electron-connect": "0.4.2"
-  },
-  "xo": {
-    "esnext": true,
-    "envs": [
-      "node",
-      "browser"
-    ]
   }
 }

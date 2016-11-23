@@ -4,13 +4,8 @@ import * as riot from 'riot';
 import normalizeUrl from 'normalize-url';
 
 // RIOT tag imports
-import './js/example.js';
-
-let browser = new Browser();
-
-riot.mount('main', browser);
+import './components/example.js';
 
 riot.mount('example');
-console.log('Hello, World!');
 
-console.log(normalizeUrl('octograde.com'));
+// console.log(normalizeUrl('octograde.com'));
